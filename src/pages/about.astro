@@ -1,0 +1,81 @@
+---
+import experiences from "../collections/experiences.json";
+import educations from "../collections/educations.json";
+import AboutExperience from "../components/about-experience.astro";
+import PageHeading from "../components/page-heading.astro";
+import Layout from "../layouts/main.astro";
+---
+
+<Layout title="About Me">
+  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading
+      title="About Me"
+      description="Hello 👋 I’m Tim, a seasoned Financial Analyst and consultant with a PhD in mathematics, specializing in analytics, finance, and operations. Originally from Texas, I bring a unique blend of technical expertise and a passion for empowering individuals and businesses to achieve financial clarity and success."
+    />
+
+    <img src="/assets/images/about.jpg" class="relative z-30 w-full my-10 rounded-xl" />
+
+    <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Short Bio</h2>
+    <p
+      class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+    Mathematician 🧑🏻‍💻 | Data Analyst 📊 | Financial Consultant 💼
+    </p>
+
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+    >
+      Experience
+    </h2>
+    <div class="px-5 py-10">
+      {
+        experiences.map((experience) => {
+          return (
+            <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
+              <AboutExperience
+                dates={experience.dates}
+                role={experience.role}
+                company={experience.company}
+                description={experience.description}
+                logo={experience.logo}
+              />
+            </div>
+          )
+        })
+      }
+    </div>
+
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+    >
+      Education
+    </h2>
+    <div class="px-5 py-10">
+      {
+        educations.map((experience) => {
+          return (
+            <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
+              <AboutExperience
+                dates={experience.dates}
+                role={experience.role}
+                company={experience.company}
+                description={experience.description}
+                logo={experience.logo}
+              />
+            </div>
+          )
+        })
+      }
+    </div>
+
+    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Let's Connect</h2>
+    <p
+      class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+    If you're passionate about finance, analytics, or data, let's connect! <a href="Medium Link" target="_blank"
+    class="text-indigo-600 underline">Follow me on Medium</a> for insights and articles, and on <a href="https://www.linkedin.com/in/tim-the-wilson"
+    target="_blank" class="text-indigo-600 underline">LinkedIn</a> for professional updates and networking opportunities. Feel free to reach out via 
+    <a href="mailto:timthewilson@outlook.com" class="text-indigo-600 underline">email</a> - I'm always eager to collaborate and exchange ideas with others in the community.
+    </p>
+  </section>
+</Layout>

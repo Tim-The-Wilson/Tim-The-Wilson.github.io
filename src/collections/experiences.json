@@ -1,0 +1,23 @@
+[
+	{
+		"dates": "August 2023 · May 2024",
+		"role": "Adjunct Statistics Instructor",
+		"company": "Texas Woman's University",
+		"description": "Developed and taught comprehensive courses in Elementary and Advanced Statistics, as well as Probability Theory. Focused on practical applications of Exploratory Data Analysis (EDA), hypothesis testing, and point estimation in both online and in-person formats, while fostering a hands-on learning environment for diverse student groups.",
+		"logo": "/assets/images/experiences/twu.png"
+	},
+	{
+		"dates": "January 2024 · May 2024",
+		"role": "Adjunct Mathematics Instructor",
+		"company": "University of North Texas",
+		"description": "Designed and instructed courses in Probability Models and Calculus, emphasizing real-world applications of mathematical principles. Delivered engaging content in hybrid formats, empowering students to develop critical problem-solving skills for academic and professional success.",
+		"logo": "/assets/images/experiences/eagle.svg"
+	},
+	{
+		"dates": "May 2023 · July 2023",
+		"role": "Senior Data Scientist",
+		"company": "Dish Network",
+		"description": "Led the development of advanced data solutions on the Product Analytics Team to drive business performance. Designed and optimized KPI dashboards, automated ETL processes to reduce data acquisition time by 50%, and collaborated across teams to improve customer retention, streamline workflows, and enhance data accuracy for strategic initiatives.",
+		"logo": "/assets/images/experiences/dish.png"
+	}
+]

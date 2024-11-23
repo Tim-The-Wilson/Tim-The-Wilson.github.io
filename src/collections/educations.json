@@ -1,0 +1,26 @@
+[
+	{
+		"role": "MBA in Finance and Operations Management",
+		"company": "Eastern Washington University",
+		"description": "Currently pursuing an MBA with a focus on finance and operations management. This program is enhancing my skills in financial analysis, business strategy, and leadership while preparing me for professional certifications such as the SIE and CFA exams. Courses in operations analysis, financial modeling, and strategic planning are providing the foundation to manage complex business challenges and lead innovative solutions. Beyond technical skills, I am gaining valuable insights into effective leadership and team management, with the goal of fostering organizational success and driving impactful business strategies. Expected graduation: Winter 2026.",
+		"logo": "/assets/images/experiences/ewu.png"
+	},
+	{
+		"role": "Ph.D. in Mathematics",
+		"company": "University of North Texas",
+		"description": "My doctoral research in Complex Dynamics, under the mentorship of Mariusz Urbański, focused on Ergodic Theory and Dynamical Systems. I investigated the existence and continuity of conformal measures within the framework of thermodynamic formalism, particularly addressing challenges posed by parabolic points and their impact on Julia sets. This work involved developing new analytical methods to explore the interplay between dynamical behavior and topological properties, providing deeper insights into the stability and dimensional characteristics of these complex structures. Through this intensive research, I honed the ability to delve deeply into complex problems, thoroughly exploring existing literature and methodologies. This process required assimilating a vast array of theoretical concepts and technical approaches. When existing tools proved insufficient, I developed new techniques to advance understanding in the field. This experience cultivated strong problem-solving skills, analytical thinking, and the capacity to innovate within rigorous mathematical frameworks.",
+		"logo": "/assets/images/experiences/eagle.svg"
+	},
+	{
+		"role": "M.S. in Mathematics",
+		"company": "University of North Texas",
+		"description": "Completed advanced coursework in Topology, Abstract Algebra, and Partial Differential Equations, focusing on their applications to physics. Teaching as a Graduate Fellow allowed me to design and deliver courses in College Algebra and Business Mathematics, integrating topics such as annuities, amortization schedules, and optimization. These experiences solidified my passion for applied mathematics and strengthened my foundation for advanced academic and professional endeavors.",
+		"logo": "/assets/images/experiences/eagle.svg"
+	},
+	{
+		"role": "B.A. in Mathematics",
+		"company": "Angelo State University",
+		"description": "Built a comprehensive foundation in mathematics through courses in topology, probability theory, and linear algebra, while expanding technical skills with computer science coursework in C++ programming and Unix systems. Early research in knot theory and additional studies in education and psychology honed my analytical and communication abilities, preparing me for advanced studies and a career blending teaching and mathematics.",
+		"logo": "/assets/images/experiences/asu.svg"
+	}
+]
